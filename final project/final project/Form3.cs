@@ -45,7 +45,8 @@ namespace final_project
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form4 registro = new Form4();
+            registro.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

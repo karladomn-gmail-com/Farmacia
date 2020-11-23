@@ -25,3 +25,4 @@ C:\Users\USER\Desktop\Fin\Farmacia\final project\final project\obj\Debug\final p
 C:\Users\USER\Desktop\Fin\Farmacia\final project\final project\obj\Debug\final project.exe
 C:\Users\USER\Desktop\Fin\Farmacia\final project\final project\obj\Debug\final project.pdb
 C:\Users\USER\Desktop\Fin\Farmacia\final project\final project\obj\Debug\final_project.Form3.resources
+C:\Users\USER\Desktop\Fin\Farmacia\final project\final project\obj\Debug\final_project.Form4.resources
