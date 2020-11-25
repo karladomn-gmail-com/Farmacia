@@ -37,6 +37,8 @@ namespace final_project
                 if (reader.Read())
                 {
                     MessageBox.Show("Exito al ingresar");
+                    Form2 registro = new Form2();
+                    registro.Show();
                 }
                 else
                 {
@@ -65,14 +67,12 @@ namespace final_project
         private void button1_Click(object sender, EventArgs e)
         {
             ingresar();
-            Form3 registro = new Form3();
-            registro.Show();
+         
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 registro = new Form2();
-            registro.Show(); 
+            
         }
     }
 }
