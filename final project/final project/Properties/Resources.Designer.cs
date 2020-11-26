@@ -63,6 +63,27 @@ namespace final_project.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap añada_el_usuario_nuevo_amigo_miembro_y_signo_más_línea_fina_icono_plano_del_color_símbolo_linear_vector_diseño_largo_colorido_109028266 {
+            get {
+                object obj = ResourceManager.GetObject("añada-el-usuario-nuevo-amigo-miembro-y-signo-más-línea-fina-icono-plano-del-color" +
+                        "-símbolo-linear-vector-diseño-largo-colorido-109028266", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap business_application_addmale_useradd_insert_add_user_client_2312 {
+            get {
+                object obj = ResourceManager.GetObject("business_application_addmale_useradd_insert_add_user_client_2312", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap diseño {
             get {
                 object obj = ResourceManager.GetObject("diseño", resourceCulture);

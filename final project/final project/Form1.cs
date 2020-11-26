@@ -25,7 +25,7 @@ namespace final_project
         private void ingresar()
         {
             string connect = "datasource=localhost;port=3306;username=root;password=;database=imss";
-            string query = "select * from login where USER  = '" + textBox1.Text + "' AND PASSWORD = '" + textBox2.Text + "'";
+            string query = "select * from login where user  = '" + textBox1.Text + "' AND password = '" + textBox2.Text + "'";
             MySqlConnection databaseConnection = new MySqlConnection(connect);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
             commandDatabase.CommandTimeout = 60;
@@ -36,8 +36,8 @@ namespace final_project
                 reader = commandDatabase.ExecuteReader();
                 if (reader.Read())
                 {
-                    MessageBox.Show("Exito al ingresar");
-                    Form2 registro = new Form2();
+                    MessageBox.Show("Bienevenido al sistema de almacenamiento de farmacos");
+                    Form3 registro = new Form3();
                     registro.Show();
                 }
                 else
@@ -51,8 +51,6 @@ namespace final_project
                 MessageBox.Show(ex.Message);
             }
         }
-
-
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -72,9 +70,13 @@ namespace final_project
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            Form2 registro = new Form2();
+            registro.Show();
         }
     }
 }
 
 
+
+
+ 

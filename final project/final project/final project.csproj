@@ -111,5 +111,11 @@
   <ItemGroup>
     <None Include="Resources\diseño.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_application_addmale_useradd_insert_add_user_client_2312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\añada-el-usuario-nuevo-amigo-miembro-y-signo-más-línea-fina-icono-plano-del-color-símbolo-linear-vector-diseño-largo-colorido-109028266.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
